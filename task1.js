@@ -1,4 +1,4 @@
-var n = Number(process.argv[1]);
+﻿var n = Number(process.argv[1]);
 var e = Number(process.argv[2]);
 var sum = 0;
 while(n) {

@@ -1,9 +1,9 @@
-var str = process.argv[1];
+Ôªøvar str = process.argv[1];
 var k = Number(process.argv[2]);
 var res = "";
 for (cnt=0; cnt < str.length; cnt++)
 {
-    if(str[cnt] > '¿' && str[cnt] < 'ˇ')
+    if(str[cnt] > '–ê' && str[cnt] < '—è')
         res += str[cnt];
     else
         res += String.fromCharCode(str.charCodeAt(cnt) + k);
