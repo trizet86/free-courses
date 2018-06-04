@@ -8,7 +8,7 @@
         return 2;
 } 
 
-var sec = Number(process.argv[1]) + Number(process.argv[2]);
+var sec = Number(process.argv[2]) + Number(process.argv[3]);
 var h = sec / 3600 ^ 0;
 var m = (sec - h * 3600) / 60 ^ 0;
 var s = sec - h * 3600 - m * 60;
