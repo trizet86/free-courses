@@ -2,7 +2,7 @@
 var e = Number(process.argv[3]);
 var sum = 0;
 while(n) {
-    sum += Math.pow(n,e);
+    sum += n**e;
     n--;
 }
 console.log(sum);
